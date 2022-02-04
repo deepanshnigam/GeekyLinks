@@ -1,0 +1,243 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: cursive;
+}
+
+section:nth-child(2n+1){
+	background-color: white;
+}
+section:nth-child(2n){
+	background-color: #ffe6ff;
+}
+
+/*background*/
+header{
+
+	background: url(img//banner-image.jpg);
+	min-height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.banner{
+	position: relative;
+	background: url(img//banner-image.jpg);
+	min-height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding: 200px 0 50px ;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+#name-background{
+	color: white;
+	font-size: 17rem;
+	font-family: cursive;
+	letter-spacing: 0.2rem;
+	font-weight: 900;
+	margin-bottom: 30px;
+	opacity: 0.2;
+}
+/*navbar*/
+
+#home-navbar ul li a {
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	font-family: sans-serif;
+	background-color: transparent;
+	transition: .5s all;
+}
+#home-navbar ul li a:hover{
+	color: tomato;
+	/*text-decoration: underline;*/
+}
+.drop-down-list{
+	background-color: transparent;
+}
+
+/*animated effect*/
+
+.hover-line::after{
+	content: '';
+	display: block;
+	width: 0%;
+	height: 2px;
+	background-color: tomato;
+	transition: width .5s;
+}
+.hover-line:hover::after{
+	width: 100%;
+	transition: width .5s;
+}
+
+/*logo*/
+.site-title{
+	text-decoration: none;
+	color: white;
+	font-size: 32px;
+	font-family: cursive;
+	font-weight: 900;
+
+}
+
+/*header*/
+#slogan-header{
+	color: white;
+	font-size: 7rem;
+	font-family: cursive;
+	letter-spacing: 0.1rem;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+#header-content-image{
+	max-height: 250px;
+	max-width: 250px;
+	margin-bottom: 30px;
+}
+#header-content-image img{
+	width: 100%;
+	height: 100%;
+	opacity: 0.5;
+	border-radius: 33px;
+}
+
+#header-button button{
+	background-color: #7400d4;
+	border-radius: 3rem;
+	font-size: 3rem;
+	padding: 8px;
+	box-shadow: 0 0 20px #aa80ff;
+	color: white;
+	margin: 20px;
+}
+
+#header-button a{
+	text-decoration: none;
+	color: white;
+}
+/*about*/
+#about{
+	min-height: 50vh;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin: 25px auto 30px;
+	padding: 20px 0 20px;
+	position: relative;
+
+}
+#about-image{
+	height: 100%;
+	width: 40%;
+}
+#about-image img{
+	height: 100%;
+	width: 100%;
+}
+#about-content{
+	width: 40%;
+	font-size: 2rem;
+	padding: 20px;
+}
+
+/*offer-student*/
+#offer-student{
+	min-height: 50vh;
+	width: 100%;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-around;
+	align-items: center;
+	margin: 25px auto 30px;
+	padding: 20px 0px 20px;
+	position: relative;
+}
+#offer-student-image{
+	height: 100%;
+	width: 40%;
+}
+#offer-student-image img{
+	height: 100%;
+	width: 100%;
+}
+#offer-student-content{
+	width: 40%;
+	font-size: 2rem;
+	padding: 20px;
+}
+
+/*offer-everyone*/
+#offer-everyone{
+	min-height: 50vh;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin: 25px auto 30px;
+	padding: 20px 0px 20px;
+	position: relative;
+}
+#offer-everyone-image{
+	height: 100%;
+	width: 40%;
+}
+#offer-everyone-image img{
+	height: 100%;
+	width: 100%;
+}
+#offer-everyone-content{
+	width: 40%;
+	font-size: 2rem;
+	padding: 20px;
+}
+
+/*learning*/
+#learning{
+	min-height: 50vh;
+	width: 100%;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-around;
+	align-items: center;
+	margin: 25px auto 30px;
+	padding: 20px 0px 20px;
+	position: relative;
+}
+#learning-image{
+	height: 100%;
+	width: 40%;
+}
+#learning-image img{
+	height: 100%;
+	width: 100%;
+}
+#learning-content{
+	width: 40%;
+	font-size: 2rem;
+	padding: 20px;
+}
+
+
+/*common classes*/
+.text-center{
+	text-align: center;
+}
+.text-highlight{
+	color: tomato;
+    font-weight: 600;
+}
+.highlight-color{
+	color: #2D0174;
+	font-weight: 800;
+}
