@@ -17,7 +17,7 @@
 <body>
 	<header>
 		<div class="container">
-			<nav class="navbar navbar-fixed-top">
+			<nav class="navbar">
 				<div class="container">
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#home-navbar">
@@ -32,15 +32,16 @@
 					<div class="collapse navbar-collapse" id="home-navbar">
 						<ul class="nav navbar-nav navbar-right">
 							<li><a href="index.html" class="hover-line">Home</a></li>
-							<li class="dropdown"><a href="resources.html" class="dropdown-toggle hover-line" data-toggle="dropdown">Resources<span class="caret"></span></a>
+							<li><a href="resource.html" class="hover-line">Resources</a></li>
+							<li class="dropdown"><a href="#" class="dropdown-toggle hover-line" data-toggle="dropdown">Quick Links<span class="caret"></span></a>
 								<ul class="dropdown-menu drop-down-list">
 									<li><a href="#">Courses</a></li>
-									<li><a href="#">Blogs</a></li>
-									<li><a href="#">Events</a></li>
-									<li><a href="#">Programs</a></li>
+									<li><a href="blogs.html">Blogs</a></li>
+									<li><a href="events.html">Events</a></li>
+									<li><a href="programs.html">Programs</a></li>
 								</ul>
 							</li>
-							<li><a href="#" class="hover-line">Contact Us</a></li>
+							<li><a href="getintouch.html" class="hover-line">Get Involved</a></li>
 						</ul>
 					</div>
 				</div>
@@ -225,34 +226,34 @@
 	 Contact Us
 </div>
 
-<form action="#">
+<form action="https://formspree.io/f/mpzbdrnq" method="post">
 	 <div class="form-row">
 			<div class="input-data">
-				 <input type="text" required>
+				 <input type="text" required name="First_Name">
 				 <div class="underline"></div>
 				 <label for="">First Name</label>
 			</div>
 			<div class="input-data">
-				 <input type="text" required>
+				 <input type="text" required name="Last_Name">
 				 <div class="underline"></div>
 				 <label for="">Last Name</label>
 			</div>
 	 </div>
 	 <div class="form-row">
 			<div class="input-data">
-				 <input type="text" required>
+				 <input type="text" required name="Email">
 				 <div class="underline"></div>
 				 <label for="">Email Address</label>
 			</div>
 			<div class="input-data">
-				 <input type="text" required>
+				 <input type="text" required name="Mobile">
 				 <div class="underline"></div>
 				 <label for="">Mobile Number</label>
 			</div>
 	 </div>
 	 <div class="form-row">
 	 <div class="input-data textarea">
-			<textarea rows="8" cols="80" required></textarea>
+			<textarea rows="8" cols="80" required name="Message"></textarea>
 			<br />
 			<div class="underline"></div>
 			<label for="">Write your message</label>
@@ -266,6 +267,11 @@
 </form>
 </div>
 </section>
+<footer>
+	<div class="container">
+		Copyright <span class="glyphicon glyphicon-copyright-mark"></span> GeekyLinks. All Rights Reserved | Contact Us: +91 9XXXX XXXXX
+	</div>
+</footer>
 <!--	<img src="https://i.gifer.com/PsKr.gif">  -->
 </body>
 </html>
