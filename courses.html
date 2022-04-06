@@ -1,0 +1,1260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!-- link to Bootstrap files -->
+
+	<!-- <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <script type="text/javascript" src="bootstrap/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script> -->
+
+	<!-- link to external CSS -->
+
+	<link rel="stylesheet" type="text/css" href="courses-style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!-- link to tail wind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- <header>
+		<div class="container">
+			<nav class="navbar">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#home-navbar">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a href="index.html" class="navbar-brand">
+							<p class="site-title">GeekyLinks</p>
+						</a>
+					</div>
+					<div class="collapse navbar-collapse" id="home-navbar">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="index.html" class="hover-line">Home</a></li>
+							<li><a href="resource.html" class="hover-line">Resources</a></li>
+							<li class="dropdown"><a href="#" class="dropdown-toggle hover-line" data-toggle="dropdown">Quick Links<span class="caret"></span></a>
+								<ul class="dropdown-menu drop-down-list">
+									<li><a href="#">Courses</a></li>
+									<li><a href="blogs.html">Blogs</a></li>
+									<li><a href="events.html">Events</a></li>
+									<li><a href="programs.html">Programs</a></li>
+								</ul>
+							</li>
+							<li><a href="getintouch.html" class="hover-line">Get Involved</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<section class="banner-">
+			<p class="resources-title"><strong>Courses</strong></p>
+
+		</section>
+	</header> -->
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0" href="index.html">
+            <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg> -->
+            <span class="ml-3 text-xl site-title">GeekyLinks</span>
+          </a>
+          <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+            <a class="mr-5 hover:text-gray-900" href="index.html">Home</a>
+            <a class="mr-5 hover:text-gray-900" href="resource.html">Resources</a>
+            <a class="mr-5 hover:text-gray-900" href="getintouch.html">Get Involved</a>
+            <!-- <a class="mr-5 hover:text-gray-900">Fourth Link</a> -->
+          </nav>
+          <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Help
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
+    </header>
+    <section class="text-gray-600 body-font container">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+          <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">“Teachers open the door, but you must enter by yourself”
+            <!-- <br class="hidden lg:inline-block">readymade gluten -->
+            </h1>
+            <p class="mb-8 leading-relaxed">You can have access to professors from the best universities in the world, but you still need to be willing to do the work, even when it’s hard. If you can’t do it alone, remember that asking for help is part of doing the work.</p>
+            <div class="flex justify-center">
+                <a href="#technical"><button class="inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg">Technical</button></a>
+                <a href="#non-technical"><button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Non-Technical</button></a>
+            </div>
+          </div>
+          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+            <img class="object-cover object-center rounded" alt="hero" src="https://source.unsplash.com/720x600/?courses,learn,education,study">
+          </div>
+        </div>
+    </section>
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-20">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">What does we offer?</h1>
+            <!-- <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p> -->
+            <p>If the student wants to explore his <span class="text-highlight">capabilities, learn new skills, develop a better personality</span> then GeekyLinks is the right place.
+			With GeekyLinks <span class="text-highlight">explore</span> new skills, opportunities and many more different things with <span class="text-highlight">"FREE COURSES", "CERTIFICATION", "PREPARATION"</span> and many more new things.
+			<b>"There are endless possibilities to think !"</b>
+            </p>
+          </div>
+          <div class="flex flex-wrap -m-4 text-center">
+            <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+              <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-purple-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+                    <path d="M8 17l4 4 4-4m-4-5v9"></path>
+                    <path d="M20.88 18.09A5 5 0 0018 9h-1.26A8 8 0 103 16.29"></path>
+                </svg>
+                <h2 class="title-font font-medium text-3xl text-gray-900">63</h2>
+                <p class="leading-relaxed">Links</p>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+              <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-purple-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+                    <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
+                    <circle cx="9" cy="7" r="4"></circle>
+                    <path d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75"></path>
+                </svg>
+                <h2 class="title-font font-medium text-3xl text-gray-900">21</h2>
+                <p class="leading-relaxed">Categories</p>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+              <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-purple-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+                    <path d="M3 18v-6a9 9 0 0118 0v6"></path>
+                    <path d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z"></path>
+                </svg>
+                <h2 class="title-font font-medium text-3xl text-gray-900">17</h2>
+                <p class="leading-relaxed">Websites</p>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+              <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-purple-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg>
+                <h2 class="title-font font-medium text-3xl text-gray-900">4.6</h2>
+                <p class="leading-relaxed">Average Rating</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section id="technical">
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-12 mx-auto">
+          <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Data Structures</h1>
+            <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Data Structures are a specialized means of organizing and storing data in computers in such a way that we can perform operations on the stored data more efficiently. </p>
+          </div>
+          <div class="flex flex-wrap -m-4">
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                  </svg>
+                </div>
+                <a href="https://www.udemy.com/course/introduction-to-data-structures-algorithms-in-java/">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Introduction to Data Structures & Algorithms</h2>
+                  <p class="leading-relaxed text-base">Help understand the fundamentals of DS & Algorithms</p>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <circle cx="6" cy="6" r="3"></circle>
+                    <circle cx="6" cy="18" r="3"></circle>
+                    <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                  </svg>
+                </div>
+                <a href="https://www.coursera.org/specializations/algorithms?utm_source=gg&utm_medium=sem&utm_campaign=07-StanfordML-IN&utm_content=B2C&campaignid=1950458127&adgroupid=71488685195&device=m&keyword=data%20structures%20and%20algorithms%20online%20course&matchtype=e&network=g&devicemodel=&adpostion=&creativeid=351348162149&hide_mobile_promo&gclid=CjwKCAjw0a-SBhBkEiwApljU0mcCu-Z7ePPBARJq0VtTKsfo9sEjWJQESCczPDZC2kGDfDTQaGEbIxoCE-MQAvD_BwE">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Algorithms Specialization</h2>
+                  <p class="leading-relaxed text-base">Learn To Think Like A Computer Scientist</p>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                  </svg>
+                </div>
+                <a href="https://www.edx.org/course/c-introduction-to-data-structures">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Introduction to Data Structures</h2>
+                  <p class="leading-relaxed text-base">Learn the advanced programming topics in the C++</p>
+                </a>
+              </div>
+            </div>   
+          </div>
+        </div>
+    </section>
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-12 mx-auto">
+          <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Machine Learning</h1>
+            <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Machine learning (ML) is a type of artificial intelligence (AI) that allows software applications to become more accurate at predicting outcomes without being explicitly programmed to do so.</p>
+          </div>
+          <div class="flex flex-wrap -m-4">
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                  </svg>
+                </div>
+                <a href="https://www.coursera.org/learn/machine-learning">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Machine Learning</h2>
+                  <p class="leading-relaxed text-base">Machine Learning course offered by Standford</p>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <circle cx="6" cy="6" r="3"></circle>
+                    <circle cx="6" cy="18" r="3"></circle>
+                    <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                  </svg>
+                </div>
+                <a href="https://www.edx.org/course/machine-learning-with-python-a-practical-introduct">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Machine Learning with Python</h2>
+                  <p class="leading-relaxed text-base">All the tools for supervised and unsupervised learning.</p>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                  </svg>
+                </div>
+                <a href="https://www.udemy.com/course/complete-machine-learning-and-data-science-zero-to-mastery/">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Machine Learning Bootcamp</h2>
+                  <p class="leading-relaxed text-base">Machine Learning and Python with Tensorflow, Pandas</p>
+                </a>
+              </div>
+            </div>   
+          </div>
+        </div>
+    </section>
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-12 mx-auto">
+          <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Artifical Intelligence</h1>
+            <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Artificial intelligence (AI) is the ability of a computer or a robot controlled by a computer to do tasks that are usually done by humans because they require human intelligence and discernment.</p>
+          </div>
+          <div class="flex flex-wrap -m-4">
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                  </svg>
+                </div>
+                <a href="https://www.coursera.org/learn/ai-for-everyone">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">AI For Everyone</h2>
+                  <p class="leading-relaxed text-base">Offered by DeepLearning.AI</p>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <circle cx="6" cy="6" r="3"></circle>
+                    <circle cx="6" cy="18" r="3"></circle>
+                    <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                  </svg>
+                </div>
+                <a href="https://www.edx.org/course/AI-applications-with-watson">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">AI Applications with Watson</h2>
+                  <p class="leading-relaxed text-base">Learn to use and program tools and assitant services</p>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                  </svg>
+                </div>
+                <a href="https://www.edx.org/course/cs50s-introduction-to-artificial-intelligence-with-python">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Introduction to Artificial Intelligence with Python</h2>
+                  <p class="leading-relaxed text-base">Introductory course on artificial intelligence.</p>
+                </a>
+              </div>
+            </div>   
+          </div>
+        </div>
+    </section>
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-12 mx-auto">
+          <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Data Science</h1>
+            <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Data science is an interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from noisy, structured and unstructured data, and apply knowledge and actionable insights from data across a broad range of application domains.</p>
+          </div>
+          <div class="flex flex-wrap -m-4">
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                  </svg>
+                </div>
+                <a href="https://www.coursera.org/specializations/jhu-data-science">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Data Science Specialization</h2>
+                  <p class="leading-relaxed text-base">Introduction to data science by leading professors.</p>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <circle cx="6" cy="6" r="3"></circle>
+                    <circle cx="6" cy="18" r="3"></circle>
+                    <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                  </svg>
+                </div>
+                <a href="https://www.udemy.com/course/datascience/">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Data Science A-Z™</h2>
+                  <p class="leading-relaxed text-base">Learn Data Science step by step through real Analytics</p>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                  </svg>
+                </div>
+                <a href="https://www.coursera.org/specializations/data-science-foundations-r">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Data Science: Foundations using R Specialization</h2>
+                  <p class="leading-relaxed text-base">Offered By Johns Hopkins University</p>
+                </a>
+              </div>
+            </div>   
+          </div>
+        </div>
+    </section>
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-12 mx-auto">
+          <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">SQL</h1>
+            <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">SQL is a domain-specific language used in programming and designed for managing data held in a relational database management system, or for stream processing in a relational data stream management system.</p>
+          </div>
+          <div class="flex flex-wrap -m-4">
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                  </svg>
+                </div>
+                <a href="https://www.udemy.com/course/oracle-sql-step-by-step-approach/">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Oracle SQL</h2>
+                  <p class="leading-relaxed text-base">Discover essential SQL skills necessary for career</p>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <circle cx="6" cy="6" r="3"></circle>
+                    <circle cx="6" cy="18" r="3"></circle>
+                    <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                  </svg>
+                </div>
+                <a href="https://www.coursera.org/specializations/postgresql-for-everybody?trk_location=query-summary-list-link">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">PostgreSQL for Everybody Specialization</h2>
+                  <p class="leading-relaxed text-base">Learn SQL skills you can use in real-world environment</p>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                  </svg>
+                </div>
+                <a href="https://www.udemy.com/course/sql-tuning/">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">SQL Tuning</h2>
+                  <p class="leading-relaxed text-base">Tune SQL statements for optimal performance</p>
+                </a>
+              </div>
+            </div>   
+          </div>
+        </div>
+    </section>
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-12 mx-auto">
+          <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Cyber Security</h1>
+            <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Computer security, cybersecurity, or information technology security is the protection of computer systems and networks from information disclosure, theft of or damage to their hardware, software, or electronic data, as well as from the disruption or misdirection of the services they provide.</p>
+          </div>
+          <div class="flex flex-wrap -m-4">
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                  </svg>
+                </div>
+                <a href="https://www.udemy.com/course/network-security-course/">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Network Security</h2>
+                  <p class="leading-relaxed text-base">Network Security, WiFi Security, WiFi Hackers, etc.</p>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <circle cx="6" cy="6" r="3"></circle>
+                    <circle cx="6" cy="18" r="3"></circle>
+                    <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                  </svg>
+                </div>
+                <a href="https://www.edureka.co/cybersecurity-certification-training?utm_source=Google-Search&utm_medium=cpc&utm_campaign=ET-IND-Search-Cybersecurity&utm_term=ET-cybersecurity-training&gclid=CjwKCAjw0a-SBhBkEiwApljU0m0Z7rGW4Q1BW8_DIA9BldboHSmlZ1aPCjYvb6CCM-9NCXqTDLQMOxoCPEIQAvD_BwE
+                ">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Cyber Security Course
+                  </h2>
+                  <p class="leading-relaxed text-base">Learn from experienced industry professionals</p>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                  </svg>
+                </div>
+                <a href="https://www.coursera.org/learn/introduction-cybersecurity-cyber-attacks?trk_location=query-summary-list-link">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Introduction to Cybersecurity</h2>
+                  <p class="leading-relaxed text-base">Offered By IBM</p>
+                </a>
+              </div>
+            </div>   
+          </div>
+        </div>
+    </section>
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-12 mx-auto">
+          <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Big Data Analytics</h1>
+            <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Big data refers to data sets that are too large or complex to be dealt with by traditional data-processing application software. Data with many fields offer greater statistical power, while data with higher complexity may lead to a higher false discovery rate.</p>
+          </div>
+          <div class="flex flex-wrap -m-4">
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                  </svg>
+                </div>
+                <a href="https://www.coursera.org/learn/big-data-introduction">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Introduction to Big Data</h2>
+                  <p class="leading-relaxed text-base">Offered By University of California San Diego</p>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <circle cx="6" cy="6" r="3"></circle>
+                    <circle cx="6" cy="18" r="3"></circle>
+                    <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                  </svg>
+                </div>
+                <a href="https://www.simplilearn.com/introduction-to-data-analytics-training-course">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Introduction to Data Analytics</h2>
+                  <p class="leading-relaxed text-base">For Learn the basics of Data Analytics
+                  </p>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                  </svg>
+                </div>
+                <a href="https://www.edx.org/course/data-analytics-for-everyone">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Data Analytics Basics for Everyone</h2>
+                  <p class="leading-relaxed text-base">Learn the fundamentals of Data Analytics</p>
+                </a>
+              </div>
+            </div>   
+          </div>
+        </div>
+    </section>
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-12 mx-auto">
+          <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Cloud Computing</h1>
+            <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Cloud computing is the on-demand availability of computer system resources, especially data storage and computing power, without direct active management by the user. Large clouds often have functions distributed over multiple locations, each location being a data center.</p>
+          </div>
+          <div class="flex flex-wrap -m-4">
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                  </svg>
+                </div>
+                <a href="https://www.edureka.co/aws-certification-training?utm_source=Google-Search&utm_medium=cpc&utm_campaign=ET-IND-006-Search-AWS-Cloud-Computing&gclid=CjwKCAjw0a-SBhBkEiwApljU0pcrukdlb9eOQLXlpscuL-XGtyx1NpPPPeYazOw2acanEQUZAHMrxRoC8doQAvD_BwE">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">AWS Solution Architect</h2>
+                  <p class="leading-relaxed text-base">AWS Certification is curated by industry professionals</p>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <circle cx="6" cy="6" r="3"></circle>
+                    <circle cx="6" cy="18" r="3"></circle>
+                    <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                  </svg>
+                </div>
+                <a href="https://www.udemy.com/course/getting-started-with-cloud-computing-level-1/">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Getting Started with Cloud Computing</h2>
+                  <p class="leading-relaxed text-base">Start your Journey in the Cloud Computing Revolution</p>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                  </svg>
+                </div>
+                <a href="https://www.edx.org/course/introduction-to-cloud-computing-6">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Introduction to Cloud Computing</h2>
+                  <p class="leading-relaxed text-base">Master the core concepts in Cloud Computing</p>
+                </a>
+              </div>
+            </div>   
+          </div>
+        </div>
+    </section>
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-12 mx-auto">
+          <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Networking</h1>
+            <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">A computer network is a set of computers sharing resources located on or provided by network nodes. The computers use common communication protocols over digital interconnections to communicate with each other.</p>
+          </div>
+          <div class="flex flex-wrap -m-4">
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                  </svg>
+                </div>
+                <a href="https://learningportal.juniper.net/juniper/user_activity_info.aspx?id=EDU-JUN-WBT-HW-NETFUN">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">GETTING STARTED WITH NETWORKING </h2>
+                  <p class="leading-relaxed text-base">Basic building blocks of networks, LANs operate</p>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <circle cx="6" cy="6" r="3"></circle>
+                    <circle cx="6" cy="18" r="3"></circle>
+                    <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                  </svg>
+                </div>
+                <a href="https://www.coursera.org/learn/computer-networking?ranMID=40328&ranEAID=XMuWjHlUEYs&ranSiteID=XMuWjHlUEYs-bzdeVrifirrM9APoWeURew&siteID=XMuWjHlUEYs-bzdeVrifirrM9APoWeURew&utm_content=10&utm_medium=partners&utm_source=linkshare&utm_campaign=XMuWjHlUEYs">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">The Bits and Bytes of Computer Networking</h2>
+                  <p class="leading-relaxed text-base">Offered By Google</p>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                  </svg>
+                </div>
+                <a href="https://www.udacity.com/course/computer-networking--ud436?irclickid=2yaVZZTjexyIRbISwE3F83mWUkGVRMzMZ2jAQY0&irgwc=1&utm_source=affiliate&utm_medium=&aff=2558440&utm_term=&utm_campaign=__&utm_content=&adid=786224">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Computer Networking</h2>
+                  <p class="leading-relaxed text-base">Offered by Georgia Institute of Technology</p>
+                </a>
+              </div>
+            </div>   
+          </div>
+        </div>
+    </section>
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-12 mx-auto">
+          <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Linux</h1>
+            <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Linux is a family of open-source Unix-like operating systems based on the Linux kernel, an operating system kernel first released on September 17, 1991, by Linus Torvalds. Linux is typically packaged in a Linux distribution. </p>
+          </div>
+          <div class="flex flex-wrap -m-4">
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                  </svg>
+                </div>
+                <a href="https://www.coursera.org/specializations/linux-private-cloud-administration-power-systems">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Linux and Private Cloud Administration</h2>
+                  <p class="leading-relaxed text-base"> Learn how enterprises use Linux in a cloud environment.</p>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <circle cx="6" cy="6" r="3"></circle>
+                    <circle cx="6" cy="18" r="3"></circle>
+                    <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                  </svg>
+                </div>
+                <a href="https://www.udemy.com/course/linuxforbeginners/">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Linux for Beginners</h2>
+                  <p class="leading-relaxed text-base">An Introduction to the Linux Operating System and CL</p>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                  </svg>
+                </div>
+                <a href="https://www.coursera.org/projects/command-line-basics-linux?trk_location=query-summary-list-link">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Command Line Basics in Linux</h2>
+                  <p class="leading-relaxed text-base">Offered By Coursera Project Network</p>
+                </a>
+              </div>
+            </div>   
+          </div>
+        </div>
+    </section>
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-12 mx-auto">
+          <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Deep Learning</h1>
+            <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Deep learning is a machine learning technique that teaches computers to do what comes naturally to humans: learn by example. Deep learning is a key technology behind driverless cars, enabling them to recognize a stop sign, or to distinguish a pedestrian from a lamppost.</p>
+          </div>
+          <div class="flex flex-wrap -m-4">
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                  </svg>
+                </div>
+                <a href="https://www.udemy.com/course/data-science-logistic-regression-in-python/">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Deep Learning: Logistic Regression in Python</h2>
+                  <p class="leading-relaxed text-base">Program logistic regression from scratch in Python</p>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <circle cx="6" cy="6" r="3"></circle>
+                    <circle cx="6" cy="18" r="3"></circle>
+                    <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                  </svg>
+                </div>
+                <a href="https://www.coursera.org/specializations/deep-learning">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Deep Learning Specialization</h2>
+                  <p class="leading-relaxed text-base">Offered By DeepLearning.AI</p>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                  </svg>
+                </div>
+                <a href="https://www.edx.org/course/deep-learning-with-tensorflow">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Deep Learning with Tensorflow</h2>
+                  <p class="leading-relaxed text-base">Apply DL with TensorFlow to solve real-world problems.</p>
+                </a>
+              </div>
+            </div>   
+          </div>
+        </div>
+    </section>
+  </section>
+  <section id="non-technical">      
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-12 mx-auto">
+          <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Content Writing</h1>
+            <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Content writing is the process of planning, writing and editing web content, typically for digital marketing purposes. It can include writing blog posts and articles, scripts for videos and podcasts, as well as content for specific platforms, such as tweetstorms on Twitter or text posts on Reddit.</p>
+          </div>
+          <div class="flex flex-wrap -m-4">
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                  </svg>
+                </div>
+                <a href="https://iimskills.com/content-writing-course/">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Content Writing Master</h2>
+                  <p class="leading-relaxed text-base">Master 25 Types of Writing Skills</p>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <circle cx="6" cy="6" r="3"></circle>
+                    <circle cx="6" cy="18" r="3"></circle>
+                    <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                  </svg>
+                </div>
+                <a href="https://www.upskillist.com/courses/marketing/online-creative-writing-course/">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Creative Writing</h2>
+                  <p class="leading-relaxed text-base">Discover how to write for publications</p>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                  </svg>
+                </div>
+                <a href=" https://www.coursera.org/learn/content-marketing">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Strategy of Content Marketing</h2>
+                  <p class="leading-relaxed text-base">Learn the core strategies content marketers </p>
+                </a>
+              </div>
+            </div>   
+          </div>
+        </div>
+    </section>
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-12 mx-auto">
+          <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Music Learning</h1>
+            <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">The field of music education contains a number of learning theories that specify how students learn music based on behavioral and cognitive psychology.</p>
+          </div>
+          <div class="flex flex-wrap -m-4">
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                  </svg>
+                </div>
+                <a href="https://www.coursera.org/learn/edinburgh-music-theory">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Fundamentals Of Music Theory</h2>
+                  <p class="leading-relaxed text-base">Music Theory By University of Edinburgh</p>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <circle cx="6" cy="6" r="3"></circle>
+                    <circle cx="6" cy="18" r="3"></circle>
+                    <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                  </svg>
+                </div>
+                <a href="https://www.coursera.org/specializations/singer-songwriter">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">The Singer Songwriter Specialization</h2>
+                  <p class="leading-relaxed text-base">Write, perform, and record original music.</p>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                  </svg>
+                </div>
+                <a href="https://www.classcentral.com/course/songwriting-3369">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Song Writing</h2>
+                  <p class="leading-relaxed text-base">Course from University of Sheffield via FutureLearn</p>
+                </a>
+              </div>
+            </div>   
+          </div>
+        </div>
+    </section>
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-12 mx-auto">
+          <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Yoga and Meditation</h1>
+            <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Meditation is a mental practice where you train your mind to focus and not be distracted by unwanted thoughts, Yoga is a set of poses and breathing exercises. Many people would do well to incorporate either or both of these practices into their lives on a regular basis.</p>
+          </div>
+          <div class="flex flex-wrap -m-4">
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                  </svg>
+                </div>
+                <a href="https://www.udemy.com/course/mindfulness-stress-reduction/">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Learn Mindfulness Meditation</h2>
+                  <p class="leading-relaxed text-base">Calm yourself in moments of anger, high stress and anxiety</p>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <circle cx="6" cy="6" r="3"></circle>
+                    <circle cx="6" cy="18" r="3"></circle>
+                    <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                  </svg>
+                </div>
+                <a href="https://www.udemy.com/course/pregnancy-yoga-from-week-12-to-week-40/">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Prenatal Yoga</h2>
+                  <p class="leading-relaxed text-base">Keep your Body Fit and Your Baby Healthy</p>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                  </svg>
+                </div>
+                <a href="https://www.udemy.com/course/yoga-flexibility-challenge-15-min-x-15-day/">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Yoga Flexibility Challenge</h2>
+                  <p class="leading-relaxed text-base">Improve your flexibility, reduce morning stiffness, etc.</p>
+                </a>
+              </div>
+            </div>   
+          </div>
+        </div>
+    </section>
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-12 mx-auto">
+          <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Learning a New Language</h1>
+            <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">A language is a structured system of communication. The structure of a language is its grammar and the free components are its vocabulary. Languages are the primary means of communication of humans, and can be conveyed through speech, sign, or writing.</p>
+          </div>
+          <div class="flex flex-wrap -m-4">
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                  </svg>
+                </div>
+                <a href="https://www.udemy.com/topic/spanish-language/">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Spanish Language Courses</h2>
+                  <p class="leading-relaxed text-base">Spanish Language Courses by Udemy</p>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <circle cx="6" cy="6" r="3"></circle>
+                    <circle cx="6" cy="18" r="3"></circle>
+                    <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                  </svg>
+                </div>
+                <a href="https://www.coursera.org/specializations/improve-english">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">English Communication Skills Specialization</h2>
+                  <p class="leading-relaxed text-base">Improve Your English Communication Skills.</p>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                  </svg>
+                </div>
+                <a href="https://www.coursera.org/courses?query=french%20language">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">French Language Courses</h2>
+                  <p class="leading-relaxed text-base">French Language Courses by Coursera</p>
+                </a>
+              </div>
+            </div>   
+          </div>
+        </div>
+    </section>
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-12 mx-auto">
+          <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Dance</h1>
+            <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Dance can signify joy, celebration, and/or possession by a higher power, be it good or evil. The act of dancing is also linked with rhythm and transforming time into motion.</p>
+          </div>
+          <div class="flex flex-wrap -m-4">
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                  </svg>
+                </div>
+                <a href="https://www.dancewithmadhuri.com/lesson.php?id=61d2ee4ecbfa21d60a0000fa">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Krishna Kavit - Kathak</h2>
+                  <p class="leading-relaxed text-base">Based on "Teen Taal Drut Laya"</p>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <circle cx="6" cy="6" r="3"></circle>
+                    <circle cx="6" cy="18" r="3"></circle>
+                    <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                  </svg>
+                </div>
+                <a href="https://www.dancewithmadhuri.com/lesson.php?id=62418341fcee18533a00018f">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Bharatanatyam</h2>
+                  <p class="leading-relaxed text-base"> Beautiful classical dance form Bharatnatyam </p>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                  </svg>
+                </div>
+                <a href="https://www.dancewithmadhuri.com/lesson.php?id=6197844093a14a921c0000db">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Hip Hop Choreography</h2>
+                  <p class="leading-relaxed text-base">Choreography with basic hip hop moves and groves.</p>
+                </a>
+              </div>
+            </div>   
+          </div>
+        </div>
+    </section>
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-12 mx-auto">
+          <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Cooking</h1>
+            <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Cooking, cookery, or culinary arts is the art, science and craft of using heat to prepare food for consumption. Cooking techniques and ingredients vary widely, from grilling food over an open fire to using electric stoves, to baking in various types of ovens, reflecting local conditions.</p>
+          </div>
+          <div class="flex flex-wrap -m-4">
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                  </svg>
+                </div>
+                <a href="https://sanjeevkapooracademy.com/?gclid=CjwKCAjw0a-SBhBkEiwApljU0lKYQrp8VY2DwJet1WgtIy0qioMWBsjf8EbNxR9Nnxd-82Pb69BmIBoCI9wQAvD_BwE">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Cooking With Sanjeev Kapoor</h2>
+                  <p class="leading-relaxed text-base">Engage, Enrich, and Evolve your culinary skills.</p>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <circle cx="6" cy="6" r="3"></circle>
+                    <circle cx="6" cy="18" r="3"></circle>
+                    <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                  </svg>
+                </div>
+                <a href="https://www.udemy.com/course/taste-of-india-25-masala-powders-of-indian-cuisine/">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Taste of India</h2>
+                  <p class="leading-relaxed text-base">Master the Taste of Indian Kitchen.</p>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                  </svg>
+                </div>
+                <a href="https://www.studyathome.org/products/modern-cooking-certificate-course-by-vikas-khanna/">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Modern Cooking</h2>
+                  <p class="leading-relaxed text-base">Modern Cooking with Vikas Khanna</p>
+                </a>
+              </div>
+            </div>   
+          </div>
+        </div>
+    </section>
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-12 mx-auto">
+          <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Debating</h1>
+            <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Debate is a process that involves formal discourse on a particular topic, often including a moderator and audience. In a debate, arguments are put forward for often opposing viewpoints.</p>
+          </div>
+          <div class="flex flex-wrap -m-4">
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                  </svg>
+                </div>
+                <a href="https://www.coursera.org/learn/debates-teach-out">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Politics and Debates Teach-Out</h2>
+                  <p class="leading-relaxed text-base">Learn how to talk about politics and other issues </p>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <circle cx="6" cy="6" r="3"></circle>
+                    <circle cx="6" cy="18" r="3"></circle>
+                    <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                  </svg>
+                </div>
+                <a href="https://www.wondrium.com/the-art-of-debate">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">The Art of Debate</h2>
+                  <p class="leading-relaxed text-base">Unpack the structure of a formal debate.</p>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                  </svg>
+                </div>
+                <a href="https://www.speechdebateindia.com/plans-pricing">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Developing Leaders</h2>
+                  <p class="leading-relaxed text-base">Learn rigorous international debate formats</p>
+                </a>
+              </div>
+            </div>   
+          </div>
+        </div>
+    </section>
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-12 mx-auto">
+          <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Fashion Designing</h1>
+            <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Fashion designers sketch designs of clothing, footwear, and accessories. Fashion designers create original clothing, accessories, and footwear. They sketch designs, select fabrics and patterns, and give instructions on how to make the products they design.</p>
+          </div>
+          <div class="flex flex-wrap -m-4">
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                  </svg>
+                </div>
+                <a href="https://whizleague.com/course/2/learn-fashion-designing?utm_source=google&utm_medium=brand&utm_campaign=-15971543694">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">ROCKY
+                    STAR</h2>
+                  <p class="leading-relaxed text-base">Learn about Fashion Marketing and Brand Extensions</p>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <circle cx="6" cy="6" r="3"></circle>
+                    <circle cx="6" cy="18" r="3"></circle>
+                    <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                  </svg>
+                </div>
+                <a href="https://www.udemy.com/course/draping-for-fashion-design-beginner-course/">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Draping for Fashion Design</h2>
+                  <p class="leading-relaxed text-base">Learning Basic Draping Skills and Techniques</p>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                  </svg>
+                </div>
+                <a href="https://www.coursera.org/learn/sustainable-fashion">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Sustainable Fashion</h2>
+                  <p class="leading-relaxed text-base">Overview of business model theory</p>
+                </a>
+              </div>
+            </div>   
+          </div>
+        </div>
+    </section>
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-12 mx-auto">
+          <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Stock Exchange</h1>
+            <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">A stock exchange is a centralized location that brings corporations and governments so that investors can buy and sell equities. Auction-based exchanges such as the New York Stock Exchange allow traders and brokers to physically and verbally communicate buy and sell orders.</p>
+          </div>
+          <div class="flex flex-wrap -m-4">
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                  </svg>
+                </div>
+                <a href="https://www.skillshare.com/classes/Learn-Cryptocurrency-using-Coinbase-for-Beginners/473874152?via=search-layout-grid">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Learn Cryptocurrency using Coinbase</h2>
+                  <p class="leading-relaxed text-base">Tutorials to purchase, sell, and transfer Cryptocurrency</p>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <circle cx="6" cy="6" r="3"></circle>
+                    <circle cx="6" cy="18" r="3"></circle>
+                    <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                  </svg>
+                </div>
+                <a href="
+                https://www.udemy.com/course/foundation-course/
+                ">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Foundation Stock Trading</h2>
+                  <p class="leading-relaxed text-base">Learn To Trade The Stock Market</p>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                  </svg>
+                </div>
+                <a href="https://www.udemy.com/course/investing-in-stocks/">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Investing In Stocks</h2>
+                  <p class="leading-relaxed text-base">Stock Market Investing & Trading in the Stock Market</p>
+                </a>
+              </div>
+            </div>   
+          </div>
+        </div>
+    </section>
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-12 mx-auto">
+          <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Photography</h1>
+            <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">The word Photography literally means 'drawing with light', which derives from the Greek photo, meaning light and graph, meaning to draw. Photography is the process of recording an image – a photograph – on lightsensitive film or, in the case of digital photography, via a digital electronic or magnetic memory.</p>
+          </div>
+          <div class="flex flex-wrap -m-4">
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                  </svg>
+                </div>
+                <a href="https://www.skillshare.com/classes/Fundamentals-of-DSLR-Photography/1111783378?via=search-layout-grid">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Fundamentals of DSLR Photography</h2>
+                  <p class="leading-relaxed text-base">Learn fundamentals for your best photos yet!</p>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <circle cx="6" cy="6" r="3"></circle>
+                    <circle cx="6" cy="18" r="3"></circle>
+                    <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                  </svg>
+                </div>
+                <a href="https://www.coursera.org/learn/exposure-photography">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Cameras, Exposure, and Photography</h2>
+                  <p class="leading-relaxed text-base">Offered by Michigan State University</p>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                  </svg>
+                </div>
+                <a href="https://www.udemy.com/course/great-photography-tips-photo-tutorials/">
+                  <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Photography</h2>
+                  <p class="leading-relaxed text-base">Video tutorials of photography tips and tricks</p>
+                </a>
+              </div>
+            </div>   
+          </div>
+        </div>
+    </section>
+  </section>
+  <footer>
+		<div class="container">
+			Copyright <i class="far fa-copyright"></i> GeekyLinks. All Rights Reserved | Contact Us: +91 9XXXX XXXXX
+		</div>
+	</footer>
+</body>
+</html>

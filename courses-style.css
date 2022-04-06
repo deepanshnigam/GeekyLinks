@@ -1,0 +1,27 @@
+.site-title{
+	text-decoration: none;
+	color: black;
+	font-size: 32px;
+	font-family: cursive;
+	font-weight: 900;
+
+}
+
+header{
+    max-width: 90%;
+}
+
+.text-highlight{
+	color: tomato;
+    font-weight: 600;
+}
+footer {
+	/* position: fixed; */
+	padding: 10px 0;
+	text-align: center;
+	bottom: 0;
+	background-color: #101010;
+	color: #9d9d9d;
+	width: 100%;
+  font-size: 18px;
+}
